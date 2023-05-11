@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.back {
+    background-image: url("Assets/back.jpg");
+    flex-grow: 1;
+    height: 100vh;
+    background-size: cover;
+}
+
+.logo-banner {
+    position: relative;
+    top: 20%;
+    background-color: #00000044;
+    height: 6rem;
+}
+
+.sign-up {
+    flex-grow: 2;
+}
